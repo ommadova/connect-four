@@ -1,0 +1,59 @@
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    color: purple;
+    padding: 2px 1px;
+    /* outline: 2px solid gold; */
+    /* padding-top: 10px;
+    padding-right: 10px; */
+    /* border: 3px solid red; */
+    /* border-width: 5px; */
+    border-style: ridge;
+    border-color: red;
+    margin: 4px;
+    /* text-indent: 1.3em; */
+
+}
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center; 
+    text-transform: lowercase;
+  }
+  
+button {
+padding : 10px;
+}
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+ul {
+    margin: 0;
+}
+div {
+    color: blue;
+}
+.super-cool{
+    border: 2px solid pink
+    color: blue; 
+}
+
+.important {
+    color: red;
+    font-weight: bold;
+}
+
+#about {
+    font-style: italic;
+    color: hotpink;
+}
+div p {
+    color: pink
+
+}

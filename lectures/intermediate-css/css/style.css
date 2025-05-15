@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+* {
+ box-sizing: border-box;
+}
+
+
+body {
+    font-family: Kalnia, san-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type=number]{
+    border: 3px solid red;
+  }
+
+  input[type=number]:hover {
+    border: 3px solid green;
+    transition: border 1s;
+  }
+  
+  ul.top-level-list:hover {
+  cursor: pointer;
+  }
+#comments-title::first-letter{
+  font-size: 60px;
+}
+.top-level-list li{
+  border: 1px solid blue;
+}
+
+
+div+div {
+  color: green;
+}
+
+input ~ input {
+  border: 1px solid red;
+}
+ul{
+  color: red;
+}
+
+/* li{
+  color: initial;
+} */
+
+#first {
+  margin-bottom: 24px;
+}
+
+#second {
+  margin-top: 16px;
+}
+
+#between {
+  margin: 0;
+}
